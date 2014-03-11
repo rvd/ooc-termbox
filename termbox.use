@@ -1,0 +1,7 @@
+Name: termbox
+Version: 0.1
+Description: Library for writing text-based user interfaces
+SourcePath: source
+Imports: Termbox
+Additionals: ./source/termbox/src/termbox.c, ./source/termbox/src/utf8.c
+Libs: -lTermbox
